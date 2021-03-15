@@ -1,0 +1,4 @@
+Log File for 03-13-2021
+Description              Charge Code    Start Time  End Time      Tag
+Morning Stand up         CHGMTG         08:35:27 PM 08:35:28 PM      
+Production Floor         CHGMS20        08:35:28 PM             Floor

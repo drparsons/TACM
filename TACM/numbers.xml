@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chargeNums>
+    <chargeNum>
+        <chargeCode>CHGTRN</chargeCode>
+        <description>Training</description>
+        <ratio>1</ratio>
+        <type>Overhead</type>
+    </chargeNum>
+    <chargeNum>
+        <chargeCode>CHGMTG</chargeCode>
+        <description>Meetings</description>
+        <ratio>1</ratio>
+        <type>Overhead</type>
+    </chargeNum>
+    <chargeNum>
+        <chargeCode>CHGMS20</chargeCode>
+        <description>Ford Mustang Lot 20</description>
+        <ratio>2</ratio>
+        <type>Production</type>
+    </chargeNum>
+    <chargeNum>
+        <chargeCode>CHGMS21</chargeCode>
+        <description>Ford Mustang Lot 21</description>
+        <ratio>8</ratio>
+        <type>Production</type>
+    </chargeNum>
+    <chargeNum>
+        <chargeCode>CHGMS20</chargeCode>
+        <description>Ford Mustang Lot 20</description>
+        <ratio>2</ratio>
+        <type>Production</type>
+    </chargeNum>
+    <chargeNum>
+        <chargeCode>CHGMS21</chargeCode>
+        <description>Ford Mustang Lot 21</description>
+        <ratio>8</ratio>
+        <type>Production</type>
+    </chargeNum>
+    <chargeNum>
+        <chargeCode>CHGTOOL</chargeCode>
+        <description>Ford Tooling</description>
+        <ratio>1</ratio>
+        <type>Project</type>
+    </chargeNum>
+</chargeNums>
