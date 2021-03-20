@@ -1,0 +1,45 @@
+TACM Task and Charging Manager
+Author: David Parsons
+For CS622
+Last Update: 2/23/2021
+
+Description: (Copied from Project word file) This project is a system to help direct charging employees manage their time charging by logging the time spent on certain tasks. To use the Task and Charging Manager (TACM), employees will open and start the application when they start their day and add tasks as they start them. Time spent on that a task will be timed live until the user ends the task or starts a new task. At the end of the day, the employee is presented with a summary of their day with various metrics and, most importantly, a table of charge codes and time spent for reporting their labor.
+TACM maintains a log file and/or database in the background to maintain task information in case there’s an abnormal program termination and for a review of past charging. The contract and charging information will be imported from an XML file supplied externally and the user can add or edit existing numbers. 
+
+Needed Files:
+Outside of the src folder but at the same level there should be a "numbers.xml"
+"numbers.xml" contains sample charge codes.
+
+Running:
+Iteration2.java is current most complete file, this is not a JUnit test file
+but a class the exercises the current state of the I/O and classes.
+This class is runnable but as the application is a WIP so do not be
+surprised if something doesn't work. (Please let me know so I can
+address in the next iteration).
+Generates a .txt log file at the same level as the src folder
+
+Iteration4.java exercises the applications ability to generate an object
+log file to be used in the recovery of task information. It manually creates
+tasks and a new day. It utilized Logging.java which writes a log file and a .dat backup file
+concurrently. Iteration4.java then runs Day.java's recovery method adding the newly
+logged tasks back to the day and prints the status showing 4 tasks in total.
+
+ Iteration2Test.java is a JUnit test file. As most of the application regards
+ class setup and I/O the extent of the JUnit testing is limited. Currently
+ it tests more involved getters and setters of Day.java, Task.java, and
+ ProductionLot.java as well as the TotalTime() method for Day and Task.
+ **Note: Due to the limited amount of available tests it was chosen to 
+ have a single test file for this iteration instead of a test for each package.
+ Future work will have a unique test class for each testable class and a 
+ method for each method tested.*** 
+
+Note: GenericCharge.java contains a main that performs a 
+test to verify convert is functioning as expected.
+
+Note: Interation1Test.java is a development playground used to test 
+functions. Not intended for use.
+
+Note: XMLTest.java is a development playground for XML I/O setup.
+Not intended for use. Future work may use this to test XML file 
+creation
+

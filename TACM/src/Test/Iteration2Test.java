@@ -1,12 +1,13 @@
 package Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+
+
+import static org.junit.Assert.assertEquals;
 
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
-import org.junit.jupiter.api.Test;
-
+import org.junit.*;
 import chargeable.ProductionLot;
 import tasking.Day;
 import tasking.Task;
